@@ -87,3 +87,13 @@ These are the guidelines on what we are looking for in our submissions:
 - As a news reader, it is clear how I should can use the page to find news that I am looking for
 - If technologies used are changed (e.g. using React instead of Vue), a set of instructions on how to run the app are updated in the README.
 - Any changes to file structure are also communicated in the README
+
+# Nick's changes
+
+- I added a file called "Filters.vue" in news-app/src/components.
+- I took out my API key from the final version for security reasons.
+- I added a couple tests, I didn't create any new files for these, just kept it in news-app/tests/unit/example.spec.js.
+- I improved accessability on components by using the Vue Announcer and another Vue Router (I saw you guys already added one).
+- I also made the site more SEO friendly by adding meta tags and changing the indexing to history mode instead of hash mode.
+- I created a file called "analytics-design-suggestions.md".
+- I added a UML diagram of the database flow and tables/fields called "Suvera_database.png".

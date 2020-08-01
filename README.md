@@ -91,6 +91,7 @@ These are the guidelines on what we are looking for in our submissions:
 # Nick's changes
 
 - I added a file called "Filters.vue" in news-app/src/components.
+   - I created it so it's easy to add new filters, but the one I created filters articles by source.
 - I took out my API key from the final version for security reasons.
 - I added a couple tests, I didn't create any new files for these, just kept it in news-app/tests/unit/example.spec.js.
 - I improved accessability on components by using the Vue Announcer and another Vue Router (I saw you guys already added one).
